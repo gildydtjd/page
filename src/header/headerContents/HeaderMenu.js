@@ -4,7 +4,7 @@ export default function HeaderMenu() {
   return (
     <div className="header-menu">
       <ul className="header-1">
-        <li><a><img className="sns" src="./Img/sns.png"></img></a></li>
+        <li><a><img className="sns" src="./Img/sns.jpg"></img></a></li>
         <li className="li-menu"><a className="header-top-menu">BLOG</a></li>
       </ul>
       <ul className="header-2">

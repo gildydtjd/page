@@ -1,0 +1,45 @@
+.header{
+  display: inline;
+}
+
+.header-menu {
+  height: 70px;
+  background-color: #000;
+}
+
+.header-1{
+  float: left;
+  display: inline-flex;
+  margin: 0;
+  margin-left: 40px;
+}
+
+.header-2{
+  float: right;
+  display: inline-flex;
+  margin-top: 13px;
+  margin-right: 60px;
+}
+
+.sns{
+  width: 70px;
+  height: 70px;
+}
+
+.user{
+  margin-right: 40px;
+  width: 23px;
+  height: 23px;
+  margin-top: 10px;
+}
+
+.header-top-menu{
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.li-menu{
+  margin-top: 12px;
+}

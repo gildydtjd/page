@@ -8,7 +8,7 @@ function App() {
   const image1 = "https://i.imgur.com/CLUakBD.jpg";
   const image2 = "https://i.pinimg.com/originals/cc/9a/5e/cc9a5ed90c789090c432d614a55223f9.jpg";
   const image3 = "https://3.bp.blogspot.com/-lG8D-6m-WbA/TzQLkqm-rTI/AAAAAAAABqc/7b8ja6uhzu4/s1600/Winter+imitation.jpg";
-  const image4 = "https://t1.daumcdn.net/cfile/blog/244C80505523281105";
+  const image4 = "https://4.bp.blogspot.com/-BwDj-C2u_eY/TzQL0bpuqmI/AAAAAAAABsA/tSMWV1g2Ilo/s1600/Red+autumn+morning.jpg";
   const inlineStyle = {
     background : '#fff',
     left : '50%',

@@ -12,32 +12,33 @@
   display: inline-flex;
   margin: 0;
   margin-left: 40px;
+  margin-top: 10px;
 }
 
 .header-2{
   float: right;
   display: inline-flex;
-  margin-top: 13px;
+  margin-top: 20px;
   margin-right: 60px;
 }
 
 .sns{
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   margin-right: 20px;
-  margin-top: 5px;
+  margin-top: 12px;
 }
 
 .user{
   margin-right: 40px;
-  width: 23px;
-  height: 23px;
-  margin-top: 10px;
+  width: 19px;
+  height: 19px;
+  margin-top: 5px;
 }
 
 .header-top-menu{
   color: white;
-  font-size: 30px;
+  font-size: 19px;
   font-weight: 500;
   margin-right: 30px;
 }

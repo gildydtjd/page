@@ -15,13 +15,14 @@ function App() {
     position : 'absolute',
     padding : '20px',
     transform : 'translate(-50%, -50%)',
+    fontSize : '30px'
   }
   return (
     <div className="App">
       <Header />
       <Parallax bgImage={image1} strength={600}>
         <div style={{ height : 700 }}>
-          <div style={inlineStyle}>HTML inside the parallax</div>
+          <div style={inlineStyle}>Web Portfolio</div>
         </div>
       </Parallax>
 

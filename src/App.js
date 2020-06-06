@@ -15,7 +15,7 @@ function App() {
     position : 'absolute',
     padding : '20px',
     transform : 'translate(-50%, -50%)',
-    fontSize : '30px'
+    fontSize : '30px',
   }
   return (
     <div className="App">
@@ -26,20 +26,20 @@ function App() {
         </div>
       </Parallax>
 
-      <h1>ㅣㅣㅣ</h1>
+      <h1></h1>
       <Parallax bgImage={image2} blur={{ min: -1, max: 5 }}>
         <div style={{ height : 700 }}>
           <div style={inlineStyle}>Dynamic blur</div>
         </div>
       </Parallax>
-      <h1>ㅣㅣㅣ</h1>
+      <h1></h1>
 
       <Parallax bgImage={image3} strength={-200}>
         <div style={{ height : 700 }}>
           <div style={inlineStyle}>Reverse direction</div>
         </div>
       </Parallax>
-      <h1>ㅣㅣㅣ</h1>
+      <h1></h1>
 
       <Parallax 
         bgImage={image4} strength={200} >
@@ -47,7 +47,7 @@ function App() {
           <div style={inlineStyle}>Render prop</div>
         </div>
       </Parallax>
-      <h1>ㅣㅣㅣ</h1>
+      <h1></h1>
 
       <div style={{ height : '100vh' }}></div>
 

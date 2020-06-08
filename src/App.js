@@ -3,6 +3,7 @@ import './App.css';
 import Header from './header/Header';
 import { Parallax } from 'react-parallax';
 import Footer from './footer/Footer';
+import Atyping from './header/Atyping';
 
 function App() {
   const image1 = "https://i.imgur.com/CLUakBD.jpg";
@@ -44,9 +45,10 @@ function App() {
       <div style={{ display : 'flex' ,minHeight: '100vh' , borderSpacing : '0' }}>
         <div style={{ minHeight: '100vh' , width : size.width/2 , backgroundColor : '#0067a3'}}>
           <h2 style={{textAlign: 'right' , padding : '10%'}}>
-            <span style={{ display: 'block', fontSize: '24px',  opacity: '.5', speak: 'none' }}>Intro</span>
+            <span style={{ display: 'block', fontSize: '24px',  opacity: '.5', speak: 'none' }}>{Atyping({info1:"Intro"})}</span>
             <span style={{ display: 'block', fontSize: '64px', paddingBottom: '.25em', position : 'relative'}}>About myself</span>
           </h2>
+          
           <div style={{ marginLeft: 'auto' , maxwidth: '35em'}} >
           {/* <p style={{marginBlockStart: '1em', marginBlockEnd: '1em', marginInlineStart: '0px', marginInlineEnd: '0px'}}> 웹개발을 시작한 경기도의 아들 28살 길용성입니다.</p> */}
 
@@ -55,7 +57,7 @@ function App() {
 
         <div style={{ minHeight: '100vh' , width : size.width/2 , backgroundColor : 'black' }}>
         <h2 style={{textAlign: 'left' , padding : '10%'}}>
-            <span style={{ display: 'block', fontSize: '24px',  opacity: '.5', speak: 'none' }}>Skills</span>
+            <span style={{ display: 'block', fontSize: '24px',  opacity: '.5', speak: 'none' }}>{Atyping({info1:"Skills"})}</span>
             <span style={{ display: 'block', fontSize: '64px', paddingBottom: '.25em', position : 'relative'}}>What I can do</span>
           </h2>
         </div>

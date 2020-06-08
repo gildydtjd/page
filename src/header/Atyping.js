@@ -1,13 +1,13 @@
 import React from 'react'
 import Typing from 'react-typing-animation';
 
-export default function Atyping() {
+export default function Atyping(props) {
   return (
     <div>
-      <Typing speed={50}>
-        Web Portfolio
-    <Typing.Speed ms={200} />
-      방문해 주셔서 감사합니다.
+      <Typing speed={100} loop={true}>
+        {props.info1}
+        <Typing.Backspace count={20} />
+    {/* <Typing.Speed ms={200} /> */}
     </Typing>
     </div>
   )

@@ -3,7 +3,6 @@ import './App.css';
 import Header from './header/Header';
 import { Parallax } from 'react-parallax';
 import Footer from './footer/Footer';
-import Atyping from './header/Atyping';
 
 function App() {
   const image1 = "https://i.imgur.com/CLUakBD.jpg";

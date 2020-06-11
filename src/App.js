@@ -34,7 +34,7 @@ function App() {
             <h2 style={{width : '600px'}}>
               <p style={{ marginTop : '20px' , fontWeight : 800}}>NAME : 길용성</p>
               <p>AGE : 28</p>
-              <p>ADRESS : 경기도 남양주시</p>
+              <p>ADDRESS : 경기도 남양주시</p>
               <p>EMAIL : gildydtjd@naver.com</p>
             </h2>
           </div>

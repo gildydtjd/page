@@ -53,7 +53,7 @@ function App() {
               그림을 그려내는 것뿐만이 아닌, 더 큰 가치를 생각하고자 합니다.</span>
           </h2>
           
-          <div style={{ marginLeft: 'auto' , maxwidth: '35em'}} >
+          <div style={{ marginLeft: 'auto' , maxWidth: '50%'}} >
           {/* <p style={{marginBlockStart: '1em', marginBlockEnd: '1em', marginInlineStart: '0px', marginInlineEnd: '0px'}}> 웹개발을 시작한 경기도의 아들 28살 길용성입니다.</p> */}
 
           </div>

@@ -96,8 +96,7 @@ function App() {
       </div>
 
       <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#d0e1e1', textAlign:'center' }}>
-        <img style={{ width :'40%' , height : '500px', padding : '5%'}} src='./Img/dayoff.jpg'></img>
-        <img style={{ width :'40%' , height : '500px', padding : '5%'}} src='./Img/dayoff01.jpg'></img>
+        <img style={{ width :'80%' , height : '500px', padding : '5%'}} src='./Img/dayoff.jpg'></img>
       </div>
       </div>
 

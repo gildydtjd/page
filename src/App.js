@@ -7,7 +7,7 @@ import Footer from './footer/Footer';
 function App() {
   const image1 = "./Img/Note1.webp";
   const image2 = "./Img/dragon.jpg"
-  const image3 = "./Img/back.webp"
+  const image3 = "./Img/turn.jpg"
   const inlineStyle = {
     background : '#fff',
     left : '50%',
@@ -59,7 +59,7 @@ function App() {
           </div>
         </div>
 
-        <div style={{ minHeight: '100vh' , width : size.width/2 , backgroundColor : '#18306d' }}>
+        <div style={{ minHeight: '100vh' , width : size.width/2 , backgroundColor : '#253854' }}>
         <h2 style={{textAlign: 'left' , padding : '10%'}}>
             <span style={{ display: 'block', fontSize: '24px',  opacity: '.5', speak: 'none' }}>Skills</span>
             <span style={{ display: 'block', fontSize: '64px', paddingBottom: '.25em', position : 'relative'}}>What I can do</span>
@@ -95,16 +95,28 @@ function App() {
         <a href='https://github.com/gildydtjd/DayOff' style={{ display: 'block', textAlign: 'center' , letterSpacing: '2px', transition: 'all .4s ease', font: 'italic 600 14px Droid Serif', marginTop : '70px', fontSize : '20px'}}> View More</a>
       </div>
 
-      <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#AFEEEE', textAlign:'center' }}>
+      <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#d0e1e1', textAlign:'center' }}>
         <img style={{ width :'40%' , height : '500px', padding : '5%'}} src='./Img/dayoff.jpg'></img>
         <img style={{ width :'40%' , height : '500px', padding : '5%'}} src='./Img/dayoff01.jpg'></img>
       </div>
       </div>
 
+      <div style={{ display : 'flex' , height : '600px', borderSpacing : '0' }}>
+      <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#e6f5ff'}}>
+        <img style={{ width :'80%' , height : '500px', padding : '5%'}} src='./Img/coromong.PNG'></img>
+      </div>
+
+      <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#FFF', textAlign:'center' }}>
+      <h2 style={{ color: '#d49c80' , letterSpacing: '10px' , font: '600 40px Montserrat, sans-serif', marginTop : '130px'  , marginBottom: '50px' }}>Coromong</h2>
+        <p style={{ color: 'black' , fontSize : '15px', fontWeight : '700'}}> 코로나로 지친 그대들이여!<br></br> 실시간 코로나현황, 병원, 마스크판매처를 알려주는 <br></br> 코로몽을 통해 코로나를 이겨내세요!<br></br> [현재 진행중]</p>
+        <a href='https://github.com/gildydtjd/Coromong' style={{ display: 'block', textAlign: 'center' , letterSpacing: '2px', transition: 'all .4s ease', font: 'italic 600 14px Droid Serif', marginTop : '70px', fontSize : '20px'}}> View More</a>
+      </div>
+      </div>
+{/* 
       <Parallax bgImage={image3} strength={200}>
         <div style={{ minHeight: '100vh' }}>
         </div>
-      </Parallax>
+      </Parallax> */}
 
       <Footer/>
     </div>

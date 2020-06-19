@@ -64,6 +64,7 @@ function App() {
             <span style={{ display: 'block', fontSize: '24px',  opacity: '.5', speak: 'none' }}>Skills</span>
             <span style={{ display: 'block', fontSize: '64px', paddingBottom: '.25em', position : 'relative'}}>What I can do</span>
             <ul style={{ textAlign : 'center', display : 'grid' , padding : '10%'}}>
+            <li style={{ display : 'inlineBlock', fontSize : "30px", border : "2px solid #fff", color : 'white', padding: '10px 18px', letterSpacing: '5px', margin: '0 20px 20px 0'}}>JAVA</li>
             <li style={{ display : 'inlineBlock', fontSize : "30px", border : "2px solid #fff", color : 'white', padding: '10px 18px', letterSpacing: '5px', margin: '0 20px 20px 0'}}>React.js</li>
             <li style={{ display : 'inlineBlock', fontSize : "30px", border : "2px solid #fff", color : 'white', padding: '10px 18px', letterSpacing: '5px', margin: '0 20px 20px 0'}}>JavaScript</li>
             <li style={{ display : 'inlineBlock', fontSize : "30px", border : "2px solid #fff", color : 'white', padding: '10px 18px', letterSpacing: '5px', margin: '0 20px 20px 0'}}>HTML</li>

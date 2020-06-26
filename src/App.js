@@ -7,7 +7,6 @@ import Footer from './footer/Footer';
 function App() {
   const image1 = "./Img/Note1.webp";
   const image2 = "./Img/dragon.jpg"
-  const image3 = "./Img/turn.jpg"
   const inlineStyle = {
     background : '#fff',
     left : '50%',
@@ -30,7 +29,7 @@ function App() {
       <Parallax bgImage={image1} strength={400}>
         <div style={{ minHeight: '100vh' }}>
           <div style={inlineStyle}>
-            <img src={image2} style={{ width : '150px' , borderRadius : '70%' , float : 'left'}}></img>
+            <img src={image2} alt="" style={{ width : '150px' , borderRadius : '70%' , float : 'left'}}></img>
             <h2 style={{width : '600px'}}>
               <p style={{ marginTop : '20px' , fontWeight : 800}}>NAME : 길용성</p>
               <p>AGE : 28</p>
@@ -44,7 +43,7 @@ function App() {
 
       <div style={{ display : 'flex' ,minHeight: '100vh' , borderSpacing : '0' }}>
         <div style={{ minHeight: '100vh' , width : size.width/2 , backgroundColor : '#fff'}}>
-            <img src="./Img/my_self1.jpg" style={{width : '100%' , height : '600px' , marginTop : '80px'}}></img>
+            <img src="./Img/my_self1.jpg" alt="" style={{width : '100%' , height : '600px' , marginTop : '80px'}}></img>
           <h2 style={{textAlign: 'right' , padding : '8% 10%'}}>
             <span style={{ display: 'block', fontSize: '24px',  opacity: '.5', speak: 'none' , color : 'black'}}>Intro</span>
             <span style={{ textAlign: 'center', letterSpacing: '3px',  color: 'black' , fontSize : '15px', fontWeight : '700'}}>
@@ -78,7 +77,7 @@ function App() {
 
       <div style={{ display : 'flex' , height : '480px' , borderSpacing : '0' }}>
       <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#fff' }}>
-        <img style={{ width : '100%'}} src="./Img/my_self2.jpg"></img>
+        <img alt="" style={{ width : '100%'}} src="./Img/my_self2.jpg"></img>
       </div>
       <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#fff',textAlign:'center' }}>
         <h2 style={{ color: '#d49c80' , letterSpacing: '10px' , font: '600 40px Montserrat, sans-serif', marginTop : '130px'  , marginBottom: '50px' }}>PORTFOLIO</h2>
@@ -97,13 +96,13 @@ function App() {
       </div>
 
       <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#d0e1e1', textAlign:'center' }}>
-        <img style={{ width :'80%' , height : '500px', padding : '5%'}} src='./Img/dayoff.jpg'></img>
+        <img alt="" style={{ width :'80%' , height : '500px', padding : '5%'}} src='./Img/dayoff.jpg'></img>
       </div>
       </div>
 
       <div style={{ display : 'flex' , height : '600px', borderSpacing : '0' }}>
       <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#e6f5ff'}}>
-        <img style={{ width :'80%' , height : '500px', padding : '5%'}} src='./Img/coromong.PNG'></img>
+        <img alt="" style={{ width :'80%' , height : '500px', padding : '5%'}} src='./Img/coromong.PNG'></img>
       </div>
 
       <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#FFF', textAlign:'center' }}>

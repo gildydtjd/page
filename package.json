@@ -13,7 +13,8 @@
     "react-scripts": "3.4.1",
     "react-typing-animation": "^1.6.2",
     "react-typist": "^2.0.5",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "toggle-all": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

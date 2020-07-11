@@ -117,7 +117,7 @@ export default class Body extends Component {
         <div style={{ minHeight: '80vh'}}>
         <div style={inlineStyle}>
         <h2 style={{width : '500px'}}>
-          <p style={{ fontSize:"13px", color:'#c9c9c9'}}>어제 만든 코드가 내일봐도 괜찮으면, 발전이 없는 것이다.</p>
+          <p style={{ fontSize:"13px", color:'black', fontWeight:'800'}}>어제 만든 코드가 오늘봐도 괜찮으면, 발전이 없는 것이다.</p>
           <p>Email : gildydtjd@naver.com</p>
           <p>Phone : 010-3094-1587</p>
           {/* <p>Kakao : <a href='https://open.kakao.com/o/srvKs2kc' rel="noopener noreferrer" target="_blank"> https://open.kakao.com/o/srvKs2kc </a></p> */}

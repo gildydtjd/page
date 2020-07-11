@@ -47,11 +47,10 @@ export default class Body extends Component {
             <span style={{ textAlign: 'center', letterSpacing: '3px',  color: 'black' , fontSize : '15px', fontWeight : '700'}}>
                 손으로 10초면 충분히 할 수 있는 일을
                 컴퓨터로 하루 종일 프로그래밍해서 자동으로 수행할 때,
-                나는 더할 나위 없이 큰 행복을 느낀다. <br/>
+                나는 더할 나위 없이 큰 <span style={{color:'green', fontWeight:'800'}} >행복 </span>을 느낀다. <br/>
                 - Douglas Noel Adams
                 <br/><br/>
-                원하는 모든 걸 만들어 낼 수 있는 프론트앤드 개발자가 꿈인 창조주 길용성의 <br/>
-                FORTFOLIO PAGE 에 오신걸 환영합니다. 
+                저는 원하는 모든 걸 만들어 낼 수 있는 프론트앤드 개발자가 <span style={{color:'red', fontWeight:'800'}}>꿈</span> 입니다.
               </span>
           </h2>
           

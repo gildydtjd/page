@@ -5,6 +5,7 @@ export default class Body extends Component {
   render() {
   const image1 = "./Img/Note1.webp";
   const image2 = "./Img/dragon.jpg"
+  const image3 = "./Img/turn.jpg"
   const inlineStyle = {
     background : '#fff',
     left : '50%',
@@ -14,15 +15,16 @@ export default class Body extends Component {
     transform : 'translate(-50%, -50%)',
     fontSize : '30px',
     borderRadius : '3%',
-    borderBottom : '2px solid #c9c9c9'
+    borderBottom : '2px solid #c9c9c9',
   }
+
   const size = {
       width: window.innerWidth || document.body.clientWidth,
       height: window.innerHeight || document.body.clientHeight
     }
     return (
       <div>
-        <Parallax bgImage={image1} strength={400} style={{ zIndex : "-1"}}>
+        <Parallax bgImage={image1} strength={600} style={{ zIndex : "-1"}}>
         <div style={{ minHeight: '100vh' }}>
           <div style={inlineStyle}>
             <img src={image2} alt="" style={{ width : '150px' , borderRadius : '70%' , float : 'left'}}></img>
@@ -43,20 +45,23 @@ export default class Body extends Component {
           <h2 style={{textAlign: 'right' , padding : '8% 10%'}}>
             <span style={{ display: 'block', fontSize: '24px',  opacity: '.5', speak: 'none' , color : 'black'}}>Intro</span>
             <span style={{ textAlign: 'center', letterSpacing: '3px',  color: 'black' , fontSize : '15px', fontWeight : '700'}}>
-              디자인의 가장 중요한 역할은 가치를 창조하는 것이라 여깁니다.
-              좋은 디자인이 반드시 좋은 결과로 연결된다고 생각하지는 않습니다.
-              그림을 그려내는 것뿐만이 아닌, 더 큰 가치를 생각하고자 합니다.</span>
+                손으로 10초면 충분히 할 수 있는 일을
+                컴퓨터로 하루 종일 프로그래밍해서 자동으로 수행할 때,
+                나는 더할 나위 없이 큰 행복을 느낀다. <br/>
+                - Douglas Noel Adams
+                <br/><br/>
+                원하는 모든 걸 만들어 낼 수 있는 프론트앤드 개발자가 꿈인 창조주 길용성의 <br/>
+                FORTFOLIO PAGE 에 오신걸 환영합니다. 
+              </span>
           </h2>
           
           <div style={{ marginLeft: 'auto' , maxWidth: '50%'}} >
-          {/* <p style={{marginBlockStart: '1em', marginBlockEnd: '1em', marginInlineStart: '0px', marginInlineEnd: '0px'}}> 웹개발을 시작한 경기도의 아들 28살 길용성입니다.</p> */}
-
           </div>
         </div>
 
         <div style={{ minHeight: '100vh' , width : size.width/2 , backgroundColor : '#253854' }}>
         <h2 style={{textAlign: 'left' , padding : '10%'}}>
-            <span style={{ display: 'block', fontSize: '24px',  opacity: '.5', speak: 'none' }}>Skills</span>
+            <span style={{ display: 'block', fontSize: '24px', speak: 'none' }}>Skills</span>
             <span style={{ display: 'block', fontSize: '64px', paddingBottom: '.25em'}}>What I can do</span>
             <ul style={{ textAlign : 'center', display : 'grid' , padding : '10%'}}>
             <li style={{ display : 'inlineBlock', fontSize : "30px", border : "2px solid #fff", color : 'white', padding: '10px 18px', letterSpacing: '5px', margin: '0 20px 20px 0'}}>JAVA</li>
@@ -92,7 +97,8 @@ export default class Body extends Component {
       </div>
 
       <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#d0e1e1', textAlign:'center' }}>
-        <img alt="" style={{ width :'80%' , height : '500px', padding : '5%'}} src='./Img/dayoff.jpg'></img>
+        <img alt="" style={{ width :'45%' , height : '90%', padding : '2.5%'}} src='./Img/dayoff.jpg'></img>
+        <img alt="" style={{ width :'45%' , height : '90%', padding : '2.5%'}} src='./Img/dayoff01.jpg'></img>
       </div>
       </div>
 
@@ -107,11 +113,19 @@ export default class Body extends Component {
         <a href='https://github.com/gildydtjd/Coromong' rel="noopener noreferrer" target="_blank" style={{ display: 'block', textAlign: 'center' , letterSpacing: '2px', transition: 'all .4s ease', font: 'italic 600 14px Droid Serif', marginTop : '70px', fontSize : '20px'}}> View More</a>
       </div>
       </div>
-{/* 
-      <Parallax bgImage={image3} strength={200}>
-        <div style={{ minHeight: '100vh' }}>
+
+      <Parallax bgImage={image3} strength={600} style={{zIndex : "-1"}}>
+        <div style={{ minHeight: '80vh'}}>
+        <div style={inlineStyle}>
+        <h2 style={{width : '500px'}}>
+          <p style={{ fontSize:"13px", color:'#c9c9c9'}}>어제 만든 코드가 내일봐도 괜찮으면, 발전이 없는 것이다.</p>
+          <p>Email : gildydtjd@naver.com</p>
+          <p>Phone : 010-3094-1587</p>
+          {/* <p>Kakao : <a href='https://open.kakao.com/o/srvKs2kc' rel="noopener noreferrer" target="_blank"> https://open.kakao.com/o/srvKs2kc </a></p> */}
+          </h2>
         </div>
-      </Parallax> */}
+        </div>
+      </Parallax>
       </div>
     )
   }

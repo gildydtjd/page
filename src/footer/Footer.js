@@ -5,13 +5,13 @@ export default function Footer() {
   return (
     <div className ='footer'>
       <ul className = 'footer_ul'>
+        <li> HOME</li>
+        <li>ㆍ</li>
         <li> INTRO</li>
         <li>ㆍ</li>
-        <li> KEYWORD</li>
+        <li> SKILLS</li>
         <li>ㆍ</li>
-        <li> PORTFOLIO</li>
-        <li>ㆍ</li>
-        <li> GALLERY</li>
+        <li> PROJECT</li>
         <li>ㆍ</li>
         <li> CONTACT</li>
       </ul>

@@ -22,7 +22,7 @@ export default class Body extends Component {
     }
     return (
       <div>
-        <Parallax bgImage={image1} strength={400}>
+        <Parallax bgImage={image1} strength={400} style={{ zIndex : "-1"}}>
         <div style={{ minHeight: '100vh' }}>
           <div style={inlineStyle}>
             <img src={image2} alt="" style={{ width : '150px' , borderRadius : '70%' , float : 'left'}}></img>

@@ -103,7 +103,7 @@ export default class Body extends Component {
 
       <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#FFF', textAlign:'center' }}>
       <h2 style={{ color: '#d49c80' , letterSpacing: '10px' , font: '600 40px Montserrat, sans-serif', marginTop : '130px'  , marginBottom: '50px' }}>Coromong</h2>
-        <p style={{ color: 'black' , fontSize : '15px', fontWeight : '700'}}> 코로나로 지친 그대들이여!<br></br> 실시간 코로나현황, 병원, 마스크판매처를 알려주는 <br></br> 코로몽을 통해 코로나를 이겨내세요!<br></br> [현재 진행중]</p>
+        <p style={{ color: 'black' , fontSize : '15px', fontWeight : '700'}}> 코로나로 지친 그대들이여!<br></br> 실시간 코로나현황, 병원, 마스크판매처를 알려주는 <br></br> 코로몽을 통해 코로나를 이겨내세요!<br></br></p>
         <a href='https://github.com/gildydtjd/Coromong' rel="noopener noreferrer" target="_blank" style={{ display: 'block', textAlign: 'center' , letterSpacing: '2px', transition: 'all .4s ease', font: 'italic 600 14px Droid Serif', marginTop : '70px', fontSize : '20px'}}> View More</a>
       </div>
       </div>

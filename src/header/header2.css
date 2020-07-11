@@ -18,10 +18,16 @@
   margin-right: 3rem;
   padding: 1.5rem;
   float: right;
-  border: 0;
+  border: 3;
   cursor: pointer;
-  opacity: .6;
+  opacity: .8;
   color:white;
+  font-weight: 600;
+}
+
+.header-li:hover {
+  color :cornflowerblue;
+  opacity: 1;
 }
 
 .header-text {

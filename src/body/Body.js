@@ -57,7 +57,7 @@ export default class Body extends Component {
         <div style={{ minHeight: '100vh' , width : size.width/2 , backgroundColor : '#253854' }}>
         <h2 style={{textAlign: 'left' , padding : '10%'}}>
             <span style={{ display: 'block', fontSize: '24px',  opacity: '.5', speak: 'none' }}>Skills</span>
-            <span style={{ display: 'block', fontSize: '64px', paddingBottom: '.25em', position : 'relative'}}>What I can do</span>
+            <span style={{ display: 'block', fontSize: '64px', paddingBottom: '.25em'}}>What I can do</span>
             <ul style={{ textAlign : 'center', display : 'grid' , padding : '10%'}}>
             <li style={{ display : 'inlineBlock', fontSize : "30px", border : "2px solid #fff", color : 'white', padding: '10px 18px', letterSpacing: '5px', margin: '0 20px 20px 0'}}>JAVA</li>
             <li style={{ display : 'inlineBlock', fontSize : "30px", border : "2px solid #fff", color : 'white', padding: '10px 18px', letterSpacing: '5px', margin: '0 20px 20px 0'}}>React.js</li>

@@ -47,10 +47,10 @@ export default class Body extends Component {
             <span style={{ textAlign: 'center', letterSpacing: '3px',  color: 'black' , fontSize : '15px', fontWeight : '700'}}>
                 손으로 10초면 충분히 할 수 있는 일을
                 컴퓨터로 하루 종일 프로그래밍해서 자동으로 수행할 때,
-                나는 더할 나위 없이 큰 <span style={{color:'green', fontWeight:'800'}} >행복 </span>을 느낀다. <br/>
+                나는 더할 나위 없이 큰 행복을 느낀다. <br/>
                 - Douglas Noel Adams
                 <br/><br/>
-                저는 원하는 모든 걸 만들어 낼 수 있는 프론트앤드 개발자가 <span style={{color:'red', fontWeight:'800'}}>꿈</span> 입니다.
+                원하는 모든 걸 만들어 낼 수 있는 프론트앤드 개발자가 꿈 입니다.
               </span>
           </h2>
           
@@ -75,7 +75,7 @@ export default class Body extends Component {
         </div>
       </div>
 
-      <div style={{ display : 'flex' , height : '480px' , borderSpacing : '0' }}>
+      <div style={{ display : 'flex' , height : '600px' , borderSpacing : '0' }}>
       <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#fff' }}>
         <img alt="" style={{ width : '100%'}} src="./Img/my_self2.jpg"></img>
       </div>
@@ -96,14 +96,13 @@ export default class Body extends Component {
       </div>
 
       <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#d0e1e1', textAlign:'center' }}>
-        <img alt="" style={{ width :'45%' , height : '90%', padding : '2.5%'}} src='./Img/dayoff.jpg'></img>
-        <img alt="" style={{ width :'45%' , height : '90%', padding : '2.5%'}} src='./Img/dayoff01.jpg'></img>
+        <img alt="" style={{ width :'80%' , height : '90%', padding : '3%'}} src='./Img/dayoff.jpg'></img>
       </div>
       </div>
 
       <div style={{ display : 'flex' , height : '600px', borderSpacing : '0' }}>
       <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#e6f5ff'}}>
-        <img alt="" style={{ width :'80%' , height : '500px', padding : '5%'}} src='./Img/coromong.PNG'></img>
+        <img alt="" style={{ width :'80%' , height : '90%', padding : '3%'}} src='./Img/coromong.PNG'></img>
       </div>
 
       <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#FFF', textAlign:'center' }}>
@@ -117,7 +116,7 @@ export default class Body extends Component {
         <div style={{ minHeight: '80vh'}}>
         <div style={inlineStyle}>
         <h2 style={{width : '500px'}}>
-          <p style={{ fontSize:"13px", fontWeight : 800}}>어제 만든 코드가 오늘봐도 괜찮으면, 발전이 없는 것이다.</p>
+          <p style={{ fontSize:"13px", fontWeight : 800}}>어제 만든 코드가 오늘봐도 괜찮다면, 발전이 없는 것이다.</p>
           <p>Email : gildydtjd@naver.com</p>
           <p>Phone : 010-3094-1587</p>
           {/* <p>Kakao : <a href='https://open.kakao.com/o/srvKs2kc' rel="noopener noreferrer" target="_blank"> https://open.kakao.com/o/srvKs2kc </a></p> */}

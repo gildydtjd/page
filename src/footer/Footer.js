@@ -5,15 +5,15 @@ export default function Footer() {
   return (
     <div className ='footer'>
       <ul className = 'footer_ul'>
-        <li> HOME</li>
+      <li onClick={() => window.scrollTo(0,0)}>Home</li>
         <li>ㆍ</li>
-        <li> INTRO</li>
+        <li onClick={() => window.scrollTo(0,950)}>Intro</li>
         <li>ㆍ</li>
-        <li> SKILLS</li>
+        <li onClick={() => window.scrollTo(0,950)}>Skills</li>
         <li>ㆍ</li>
-        <li> PROJECT</li>
+        <li onClick={() => window.scrollTo(0,2010)}>Project</li>
         <li>ㆍ</li>
-        <li> CONTACT</li>
+        <li onClick={() => window.scrollTo(0,3700)}>Contact</li>
       </ul>
       <h2>
         <p>©2020 YONGSUNG GIL</p>

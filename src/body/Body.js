@@ -5,7 +5,7 @@ export default class Body extends Component {
   render() {
   const image1 = "./Img/Note1.webp";
   const image2 = "./Img/dragon.jpg"
-  const image3 = "./Img/turn.jpg"
+  const image3 = "./Img/contact5.jpg"
   const inlineStyle = {
     background : '#fff',
     left : '50%',
@@ -95,24 +95,24 @@ export default class Body extends Component {
         <a href='https://github.com/gildydtjd/DayOff' rel="noopener noreferrer" target="_blank" style={{ display: 'block', textAlign: 'center' , letterSpacing: '2px', transition: 'all .4s ease', font: 'italic 600 14px Droid Serif', marginTop : '70px', fontSize : '20px'}}> View More</a>
       </div>
 
-      <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#d0e1e1', textAlign:'center' }}>
+      <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#fafafa', textAlign:'center' }}>
         <img alt="" style={{ width :'80%' , height : '90%', padding : '3%'}} src='./Img/dayoff.jpg'></img>
       </div>
       </div>
 
       <div style={{ display : 'flex' , height : '600px', borderSpacing : '0' }}>
-      <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#e6f5ff'}}>
+      <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#fafafa'}}>
         <img alt="" style={{ width :'80%' , height : '90%', padding : '3%'}} src='./Img/coromong.PNG'></img>
       </div>
 
-      <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#FFF', textAlign:'center' }}>
+      <div style={{ minHeight: '100%' , width : size.width/2 , backgroundColor : '#fff', textAlign:'center' }}>
       <h2 style={{ color: '#d49c80' , letterSpacing: '10px' , font: '600 40px Montserrat, sans-serif', marginTop : '130px'  , marginBottom: '50px' }}>Coromong</h2>
         <p style={{ color: 'black' , fontSize : '15px', fontWeight : '700'}}> 코로나로 지친 그대들이여!<br></br> 실시간 코로나현황, 병원, 마스크판매처를 알려주는 <br></br> 코로몽을 통해 코로나를 이겨내세요!<br></br></p>
         <a href='https://github.com/gildydtjd/Coromong' rel="noopener noreferrer" target="_blank" style={{ display: 'block', textAlign: 'center' , letterSpacing: '2px', transition: 'all .4s ease', font: 'italic 600 14px Droid Serif', marginTop : '70px', fontSize : '20px'}}> View More</a>
       </div>
       </div>
 
-      <Parallax bgImage={image3} strength={600} style={{zIndex : "-1"}}>
+      <Parallax bgImage={image3} strength={400} style={{zIndex : "-1"}}>
         <div style={{ minHeight: '80vh'}}>
         <div style={inlineStyle}>
         <h2 style={{width : '500px'}}>
